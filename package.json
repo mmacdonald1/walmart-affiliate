@@ -1,0 +1,30 @@
+{
+  "name": "walmart-affiliate",
+  "version": "1.0.0",
+  "description": "walmart-test ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmacdonald1/walmart-affiliate.git"
+  },
+  "keywords": [
+    "walmart",
+    "api"
+  ],
+  "author": "Melanie MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmacdonald1/walmart-affiliate/issues"
+  },
+  "homepage": "https://github.com/mmacdonald1/walmart-affiliate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "walmart": "0.0.4"
+  }
+}
